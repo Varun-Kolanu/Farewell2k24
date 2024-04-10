@@ -22,18 +22,31 @@ const App = () => {
   };
 
   const cards = [
-    <Card1 page={page} setPage={setPage} />,
-    <Card2 page={page} setPage={setPage} />,
-    // <Card3 page={page} setPage={setPage} />,
-    // <Card4 page={page} setPage={setPage} />,
-    // <Card5 page={page} setPage={setPage} />,
+    <Card3
+      page={page}
+      handleNext={handleNext}
+      handlePrev={handlePrev}
+      key={3}
+    />,
+    <Card2
+      page={page}
+      handleNext={handleNext}
+      handlePrev={handlePrev}
+      key={2}
+    />,
+    <Card1
+      page={page}
+      handleNext={handleNext}
+      handlePrev={handlePrev}
+      key={1}
+    />,
   ];
 
   useEffect(() => {}, [page]);
 
   return (
-    <main>
-      <div id="book" className="">
+    <main className="w-[100vw] h-[100vh] flex justify-center items-center">
+      <div id="book" className="relative w-80 h-[500px]">
         {cards}
       </div>
     </main>
