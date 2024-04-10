@@ -11,6 +11,7 @@ const App = () => {
 
   const handleNext = () => {
     if (page < 5) {
+      console.log("next");
       setPage((prev) => prev + 1);
     }
   };
@@ -45,7 +46,15 @@ const App = () => {
   useEffect(() => {}, [page]);
 
   return (
-    <main className="w-[100vw] h-[100vh] flex justify-center items-center">
+    <main className="w-[100vw] h-[100vh] flex flex-col justify-center items-center">
+      {page > 1 && (
+        <button
+          onClick={handlePrev}
+          className="bg-gray-500 text-white px-3 py-1 rounded-md relative -top-6"
+        >
+          Previous
+        </button>
+      )}
       <div id="book" className="relative w-80 h-[500px]">
         {cards}
       </div>
