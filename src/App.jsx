@@ -23,6 +23,18 @@ const App = () => {
   };
 
   const cards = [
+    <Card5
+      page={page}
+      handleNext={handleNext}
+      handlePrev={handlePrev}
+      key={5}
+    />,
+    <Card4
+      page={page}
+      handleNext={handleNext}
+      handlePrev={handlePrev}
+      key={4}
+    />,
     <Card3
       page={page}
       handleNext={handleNext}
@@ -46,7 +58,9 @@ const App = () => {
   useEffect(() => {}, [page]);
 
   return (
-    <main className="w-[100vw] h-[100vh] flex flex-col justify-center items-center">
+    <main
+      className={`w-[100vw] h-[100vh] flex flex-col justify-center items-center bg-[url("/bg.png")] bg-no-repeat bg-cover`}
+    >
       {page > 1 && (
         <button
           onClick={handlePrev}

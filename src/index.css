@@ -29,6 +29,18 @@
     perspective-origin: right;
   }
 
+  .perspective-4 {
+    perspective: 3600px;
+    -webkit-perspective: 3600px;
+    perspective-origin: right;
+  }
+
+  .perspective-5 {
+    perspective: 4400px;
+    -webkit-perspective: 4400px;
+    perspective-origin: right;
+  }
+
   .perspective-normal {
     perspective: 1000px;
     -webkit-perspective: 1000px;

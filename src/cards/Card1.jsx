@@ -37,7 +37,7 @@ const Card1 = ({ page, handleNext, handlePrev }) => {
               onClick={handleNext}
               className="bg-red-500 text-[#c5efc9] px-3 py-1 rounded-md relative top-6"
             >
-              Next
+              Yayy!
             </button>
 
             <div className="absolute bottom-4 text-red-500 font-sans">
