@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card2 = ({ page, handleNext, senior }) => {
+const Card2 = ({ page, handleNext, senior, handlePrev }) => {
 	return (
 		<div className={`perspective-2 ${page > 2 && "w-0 h-0"} absolute`}>
 			<div
