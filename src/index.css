@@ -3,9 +3,20 @@
 @tailwind utilities;
 
 @layer components {
+<<<<<<< HEAD
 	.rotate-y-135 {
 		transform: rotateY(-135deg);
 	}
+=======
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .rotate-y-135 {
+    transform: rotateY(-135deg);
+  }
+>>>>>>> 7223a52109db1c74b69c9d6d29691cc0f5187b3d
 
 	.rotate-y-20 {
 		transform: rotateY(-15deg);
