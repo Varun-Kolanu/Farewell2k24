@@ -3,46 +3,46 @@
 @tailwind utilities;
 
 @layer components {
-  .rotate-y-135 {
-    transform: rotateY(-135deg);
-  }
+	.rotate-y-135 {
+		transform: rotateY(-135deg);
+	}
 
-  .rotate-y-20 {
-    transform: rotateY(-15deg);
-  }
+	.rotate-y-20 {
+		transform: rotateY(-15deg);
+	}
 
-  .perspective-1 {
-    perspective: 1200px;
-    -webkit-perspective: 1200px;
-    perspective-origin: right;
-  }
+	.perspective-1 {
+		perspective: 1200px;
+		-webkit-perspective: 1200px;
+		perspective-origin: right;
+	}
 
-  .perspective-2 {
-    perspective: 2000px;
-    -webkit-perspective: 2000px;
-    perspective-origin: right;
-  }
+	.perspective-2 {
+		perspective: 2000px;
+		-webkit-perspective: 2000px;
+		perspective-origin: right;
+	}
 
-  .perspective-3 {
-    perspective: 2800px;
-    -webkit-perspective: 2800px;
-    perspective-origin: right;
-  }
+	.perspective-3 {
+		perspective: 2800px;
+		-webkit-perspective: 2800px;
+		perspective-origin: right;
+	}
 
-  .perspective-4 {
-    perspective: 3600px;
-    -webkit-perspective: 3600px;
-    perspective-origin: right;
-  }
+	.perspective-4 {
+		perspective: 3600px;
+		-webkit-perspective: 3600px;
+		perspective-origin: right;
+	}
 
-  .perspective-5 {
-    perspective: 4400px;
-    -webkit-perspective: 4400px;
-    perspective-origin: right;
-  }
+	.perspective-5 {
+		perspective: 4400px;
+		-webkit-perspective: 4400px;
+		perspective-origin: right;
+	}
 
-  .perspective-normal {
-    perspective: 1000px;
-    -webkit-perspective: 1000px;
-  }
+	.perspective-normal {
+		perspective: 1000px;
+		-webkit-perspective: 1000px;
+	}
 }
