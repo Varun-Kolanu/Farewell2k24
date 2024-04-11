@@ -6,6 +6,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const seniorData = [
 	{
+		name: "Test Name",
+		link: "/",
+		gender: "M",
+	},
+	{
 		name: "Kushal Kumar",
 		link: "/kushal-kumar",
 		gender: "M",
