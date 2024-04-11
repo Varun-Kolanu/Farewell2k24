@@ -5,6 +5,7 @@ import Card3 from "./cards/Card3";
 import Card4 from "./cards/Card4";
 import Card5 from "./cards/Card5";
 import "./App.css";
+import CanvasBackground from "./CanvasBackground";
 
 const App = () => {
   const [page, setPage] = useState(1);
@@ -59,8 +60,9 @@ const App = () => {
 
   return (
     <main
-      className={`w-[100vw] h-[100vh] flex flex-col justify-center items-center bg-[url("/bg.png")] bg-no-repeat bg-cover`}
+      className={`w-[100vw] h-[100vh] flex flex-col justify-center items-center`}
     >
+      <CanvasBackground />
       {page > 1 && (
         <button
           onClick={handlePrev}
