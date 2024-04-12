@@ -1,4 +1,5 @@
 import React from "react";
+import { IoOpenOutline } from "react-icons/io5";
 
 const Card4 = ({ page, handleNext, handlePrev }) => {
   return (
@@ -21,16 +22,18 @@ const Card4 = ({ page, handleNext, handlePrev }) => {
             </div>
             <div className="pl-5 pr-3 relative mb-2">
               <div className="flex flex-col">
-                <span
-                  className="
-                    text-[#fce501]
-                  text-5xl space-x-3 font-bold font-sans"
-                >
-                  We wish to see you on 17 April
-                </span>
+                <div className="text-4xl space-x-3 font-bold font-sans">
+                  <span className="text-[#fce501]"> Address: Tanish Cafe </span>
+                  <a
+                    href="https://maps.app.goo.gl/ersVG3wZDZdH1WbT7"
+                    className="inline-block ml-4 relative top-1 text-blue-700"
+                    target="_blank"
+                  >
+                    <IoOpenOutline />
+                  </a>
+                </div>
                 <span className="text-[#fce501] text-lg">
-                  at <span className="font-bold">Tanish Dinning Cafe</span> from
-                  6 PM onwards.
+                  at 6 PM, 17 April
                 </span>
               </div>
             </div>

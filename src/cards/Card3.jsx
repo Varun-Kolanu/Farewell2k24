@@ -20,18 +20,15 @@ const Card3 = ({ page, handleNext, senior }) => {
                 <span
                   className="
                     text-white
-                  text-5xl space-x-3 font-bold font-sans mb-2"
+                  text-4xl space-x-3 font-bold font-sans"
                 >
-                  Thanks a lot {senior.gender === "M" ? "bhaiya" : "didi"}
-                </span>
-                <span className="text-white text-lg">
-                  for this year would have been incomplete without you!
+                  In your honour, we have decided to host a dinner
                 </span>
               </div>
             </div>
 
             <div className="w-full h-full flex justify-center items-center">
-              <img src="/face.jpg" className="rounded-full w-48 h-48" />
+              <img src="/face.jpg" className="rounded-full w-56 h-56" />
             </div>
 
             <button

@@ -8,7 +8,7 @@ const Card2 = ({ page, handleNext, senior, handlePrev }) => {
           page > 2 && "rotate-y-135"
         } ${
           page == 2 && "rotate-y-20"
-        } overflow-hidden w-80 h-[500px] relative bg-[#fce501] flex flex-col justify-center items-center`}
+        } overflow-hidden w-80 h-[500px] relative bg-[#fce501] flex flex-col justify-around items-center`}
         onClick={() => {
           page > 2 && handlePrev();
         }}
@@ -27,9 +27,11 @@ const Card2 = ({ page, handleNext, senior, handlePrev }) => {
                     text-[#fd7196]
                   text-4xl space-x-3 font-bold font-sans mb-1"
                 >
-                  The coolest techie of the year goes to
+                  The COPS award for {senior.custom_award_title}
                 </span>
-                <span className="text-[#fd7196] text-lg">{senior.name}</span>
+                <span className="text-[#fd7196] text-lg">
+                  goes to <span className="font-semibold">{senior.name}</span>
+                </span>
               </div>
             </div>
 

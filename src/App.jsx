@@ -6,12 +6,14 @@ import Card4 from "./cards/Card4";
 import Card5 from "./cards/Card5";
 import "./App.css";
 import CanvasBackground from "./CanvasBackground.jsx";
+import Card6 from "./cards/Card6.jsx";
+import Card7 from "./cards/Card7.jsx";
 
 const App = ({ senior }) => {
   const [page, setPage] = useState(1);
 
   const handleNext = () => {
-    if (page < 5) {
+    if (page < 7) {
       console.log("next");
       setPage((prev) => prev + 1);
     }
@@ -24,6 +26,20 @@ const App = ({ senior }) => {
   };
 
   const cards = [
+    <Card7
+      page={page}
+      handleNext={handleNext}
+      handlePrev={handlePrev}
+      key={7}
+      senior={senior}
+    />,
+    <Card6
+      page={page}
+      handleNext={handleNext}
+      handlePrev={handlePrev}
+      key={6}
+      senior={senior}
+    />,
     <Card5
       page={page}
       handleNext={handleNext}
