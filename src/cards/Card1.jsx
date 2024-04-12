@@ -17,14 +17,10 @@ const Card1 = ({ page, handleNext, handlePrev }) => {
 						<div className="bg-red-500 w-40 h-40 rounded-full absolute -bottom-12 -right-28"></div>
 
 						<div className="p-9 ">
-							<div className="text-5xl space-x-3 font-bold font-sans z-10 relative top-2 left-2 ">
+							<div className="text-5xl space-x-3 font-bold font-sans z-10 relative top-2 left-3">
 								<span className="text-[#c5efc9]">Ar</span>
-								<span
-									className="
-                  text-red-500
-                  relative -left-3
-                  [word-spacing:5px]">
-									e You Ready To Dive Into Nostalgia?
+								<span className="text-red-500 relative -left-3 [word-spacing:5px]">
+									e you ready to dive into nostalgia?
 								</span>
 							</div>
 						</div>
@@ -32,7 +28,7 @@ const Card1 = ({ page, handleNext, handlePrev }) => {
 						<button
 							onClick={handleNext}
 							className="bg-red-500 text-[#c5efc9] px-3 py-1 rounded-md relative top-6">
-							Yayy!
+							Yes! Tell me more..
 						</button>
 
 						<div className="absolute bottom-4 text-red-500 font-sans">

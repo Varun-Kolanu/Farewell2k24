@@ -12,8 +12,8 @@ const CanvasBackground = () => {
 		const c = canvas.getContext("2d");
 		const radii = [3, 2, 1];
 		const dotcolor = "white";
-		const noOfDots = Math.floor(window.innerWidth / 20);
-		const farDist = 120;
+		const noOfDots = 1000;
+		const farDist = 10;
 		const speedFactor = 0.6;
 		const repelRadius = window.innerWidth / 8;
 
@@ -27,7 +27,7 @@ const CanvasBackground = () => {
 				this.circularPath = false;
 				this.draw = () => {
 					c.beginPath();
-					c.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
+					c.arc(this.x, this.y, this.r / 20, 0, 2 * Math.PI, false);
 					c.strokeStyle = dotcolor;
 					c.fillStyle = dotcolor;
 					c.stroke();
