@@ -47,7 +47,7 @@ const Card4 = ({ page, handleNext, handlePrev }) => {
 
             <div className="relative w-full h-full">
               <img
-                src="/face.jpg"
+                src="/party.jpg"
                 className="rounded-t-full w-[500px] h-full absolute bottom-0"
               />
             </div>

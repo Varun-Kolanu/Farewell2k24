@@ -28,7 +28,7 @@ const Card3 = ({ page, handleNext, senior }) => {
             </div>
 
             <div className="w-full h-full flex justify-center items-center">
-              <img src="/face.jpg" className="rounded-full w-56 h-56" />
+              <img src="/dinner.jpg" className="rounded-full w-56 h-56" />
             </div>
 
             <button

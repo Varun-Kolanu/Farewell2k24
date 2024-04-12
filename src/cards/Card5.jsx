@@ -21,10 +21,13 @@ const Card5 = ({ page, handleNext, handlePrev }) => {
               </span>
             </div>
             <div className="w-full h-full z-30 flex flex-col items-center">
-              <img src="/face.jpg" className="w-full h-[80%] py-8 px-12 z-20" />
-              <span className="flex justify-center z-30 pl-4 pr-1 text-[#2f46ba] font-bold text-lg relative -top-3">
-                Do not forget to carry your invite! The dress code is
-                traditionals.
+              <img
+                src="/invitation.jpg"
+                className="w-full h-4/5 py-8 px-12 z-20"
+              />
+              <span className="flex justify-center z-30 pl-4 pr-1 text-[#2f46ba] font-bold relative -top-3">
+                Do not forget to carry your invite! It's your access to this
+                super exclusive event.
               </span>
             </div>
             <button

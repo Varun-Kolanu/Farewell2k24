@@ -46,7 +46,7 @@ const Card2 = ({ page, handleNext, senior, handlePrev }) => {
                 <div className="bg-[#fc618a] w-32 h-32 rounded-full absolute -bottom-16 -left-16"></div>
                 <div className="bg-[#fce501] w-16 h-16 rounded-tr-full absolute bottom-0 left-0"></div>
 
-                <img src="/face.jpg" className="w-full h-full mb-2 z-10" />
+                <img src="/award.jpg" className="w-full mb-2 z-10 h-full" />
               </div>
               <button
                 onClick={handleNext}
