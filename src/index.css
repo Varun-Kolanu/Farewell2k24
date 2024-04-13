@@ -45,9 +45,15 @@
     perspective-origin: right;
   }
 
-  .perspective-5 {
+  .perspective-6 {
     perspective: 5200px;
     -webkit-perspective: 5200px;
+    perspective-origin: right;
+  }
+
+  .perspective-7 {
+    perspective: 6000px;
+    -webkit-perspective: 6000px;
     perspective-origin: right;
   }
 

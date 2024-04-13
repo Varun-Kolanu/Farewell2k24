@@ -84,16 +84,7 @@ const App = ({ senior }) => {
       className={`w-[100vw] h-[100vh] flex flex-col justify-center items-center bg-[#1c1e1e]`}
     >
       <CanvasBackground />
-
-      {page > 1 && (
-        <button
-          onClick={handlePrev}
-          className="bg-gray-500 text-white px-3 py-1 rounded-md relative -top-6 z-10"
-        >
-          Previous
-        </button>
-      )}
-      <div id="book" className="relative w-80 h-[500px] z-10">
+      <div id="book" className="relative w-72 h-[500px] z-10">
         {cards}
       </div>
     </main>
