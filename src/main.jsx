@@ -172,7 +172,13 @@ const seniorData = [
 		link: "/manan-rathi",
 		gender: "M",
 		custom_award_title: "The Chillax Dude",
-	},
+	},{
+		name: "Sahil Saini",
+		link: "/sahil-saini",
+		gender: "M",
+		custom_award_title: "The MVP",
+	}
+		
 ];
 
 const router = createBrowserRouter(
